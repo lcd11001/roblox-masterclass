@@ -7,7 +7,7 @@ if not part then
 	part.Name = "Smoke Part"
 	part.Size = Vector3.new(1, 1, 1)
 	part.Color = Color3.new(0.5, 0.5, 0.5) -- Gray color for visibility
-	part.Position = Vector3.new(20, 10, -20) -- Set initial position
+	part.Position = camera.CFrame.Position + Vector3.new(0, 0, -2) -- Position in front of the camera
 	part.Anchored = true
     part.CanCollide = false -- Prevent collisions
     part.Transparency = 1.0 -- Make it invisible
