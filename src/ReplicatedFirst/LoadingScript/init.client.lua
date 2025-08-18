@@ -106,7 +106,7 @@ end
 local assets = game:GetChildren()
 for index, asset in ipairs(assets) do
 	ContentProvider:PreloadAsync({ asset }, function(assetId, status)
-		-- print("index", index, "preload", assetId, "status", status)
+		-- print("preload index", index, "asset", asset.Name, "assetId", assetId, "status", status)
 		-- if loadingLabel and loadingBar then
 		-- 	loadingLabel.Text = "Loading: " .. asset.Name
 		-- 	loadingBar.Size = UDim2.fromScale(index / #assets, 1)
