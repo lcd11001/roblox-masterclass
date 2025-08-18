@@ -1,4 +1,6 @@
-print("LoadingScript")
+-- Loading Screen: https://www.youtube.com/watch?v=NIstQ3krceg
+-- How To PRELOAD Your ANIMATIONS: https://www.youtube.com/watch?v=pwWOhRG-z0M
+
 local TweenService = game:GetService("TweenService")
 
 local ReplicatedFirst = game:GetService("ReplicatedFirst")
